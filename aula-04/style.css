@@ -1,0 +1,21 @@
+.primeirasListas{
+    color:darkgreen;
+}
+
+.segundasListas {
+    color:darkslateblue;
+}
+
+#titulo{
+    color:rgb(216,191,216);
+}
+
+.paragrafo{
+    font-size: 17px;
+    font-family: monospace;
+    line-height: 1;
+    border: 15px solid red; 
+    /* border-width: 15px;
+    border: solid;
+    border-color: red; */
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html5>
+<html lang="pt-br">
+    <head>
+    <title>Site Natália Santos-Tabelas em HTML</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Listas e Tabelas">
+    </head>
+    <body>
+        <h1>Exemplo de Tabela</h1>
+        <br> 
+        
+        <h2>Estrutura de Tabela</h2>
+        <br> 
+        <table border="3">
+          
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Profissão</th>
+            </tr>
+
+            <tr>
+                <td>Natália</td>
+                <td>28</td>
+                <td>Deva</td>
+            </tr>
+            <tr>
+                <td>Wesley</td>
+                <td>31</td>
+                <td>Engenheiro</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>30</td>
+                <td>Designer</td>
+            </tr>
+        </table>
+        <br>
+
+    
+        <table border="1">
+            <tr>
+                <th>Idade:</th>
+                <td>18</td>
+            </tr>
+            <tr>
+                <th>Idade:</th>
+                <td>32</td>
+            </tr>
+        </table>
+
+        <h2>Tags de Estrutura de Tabela</h2>
+        <br><br>
+
+    
+        <table border="1">
+            <thead>
+            <tr>
+                <th>titulo 1</th>
+                <th>titulo 2</th>
+                <th>titulo 3</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Body1 linha1</td>
+                <td>Body2 linha1</td>
+                <td>Body3 linha1</td>
+            </tr>
+            <tr>
+                <td>Body1 linha2</td>
+                <td>Body2 linha2</td>
+                <td>Body3 linha2</td>
+            </tr>
+            </tbody>
+            <tfoot>
+                <td>Foot 1</td>
+                <td>Foot 2</td>
+                <td>Foot 3</td>
+            </tfoot>
+         </table> <br><br>
+
+    
+         <h2>Criando células vazias</h2>
+         <table border="1">
+            <tr>
+                <th>&nbsp;</th>
+                <th>Valor</th>
+            </tr>
+            <tr>
+                <td>Item 1</td>
+                <td>R$30,00</td>
+            </tr>
+            <tr>
+                <td>Item 2</td>
+                <td>R$28,00</td>
+            </tr>
+        </table>
+
+        <h2>Mesclando células (colspan)</h2><br>
+        <table border="1">
+            <tr>
+                <th>Nome</th>
+                <th colspan="2">Telefones</th>
+            </tr>
+
+            <tr>
+                <td>Ester</td>
+                <td>7777-7777</td>
+                <td>5555-5555</td>
+            </tr>
+
+            <tr>
+                <td>Ricardo</td>
+                <td>6666-7777</td>
+                <td>3333-4444</td>
+            </tr>
+        </table><br>
+
+        <h2>Mesclando células (rowspan)</h2><br>
+        <table border="1">
+            <tr>
+              <th>Primeiro Nome:</th>
+              <td>Maria</td>
+            </tr>
+            <tr>
+              <th rowspan="2">Telefone:</th>
+              <td>9999-9988</td>
+            </tr>
+            
+            <tr>
+              <td>2222-9999</td>
+            </tr>
+        </table><br>
+    </body>
+</html>

@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    font-family: 'Roboto';
+    background-color: bisque;
+}
+
+.container {
+    margin-right: auto; /*auto ajustave*/
+    margin-left: auto;
+    max-width: 960px; /*largura maxima do card*/
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    background-color: #f2f1f1;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 16px;
+}
+
+
+.container-sobre {
+    display: flex;
+}
+
+.avatar{
+    width: 180px;
+    height: 180px;
+    border-radius: 200px;
+}
+
+
+.sobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 32px
+}
+
+.nome{
+    color: aqua;
+    font-size: 25px;
+    font-weight: bolder;
+
+}
+
+.sobreTitulo{
+    color: aqua;
+    font-weight: bolder;
+}
+
+.container-descricao{
+    padding-top: 12px;
+}
+
+.descricao{
+    line-height: 20px;
+    color: blueviolet;
+    
+}
